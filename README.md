@@ -24,7 +24,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3> Step 1 Create resource groups and virtual machines</h3>
 
 - In Microsoft Azure, create a resource group and two virtual machines. Creating the VM will also allow you to create a new virtual network aka (Vnet).
-- Create a - Windows client virtual machine and an Linux (Ubuntu) server. Use the same Vnet that was created for your Windows VM.
+- Create a - Windows 10 client virtual machine and an Linux (Ubuntu) server. Use the same Vnet that was created for your Windows VM.
 
 <p>
 <img src="https://i.imgur.com/qjHm1Fd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -40,7 +40,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/o044LwN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ <h3> Step 3 Inspect IMCP Traficc on Wireshark</h3>
+
+- Open Wireshark and click on the blue fin icon located right under the file menu.  Once you click on that icon, Wireshark will start analyzing all network traffic on the virtual machine.
+ 
+ - Using Remote Desktop Windows 10 Virtual Machine go to Wireshark to filter traffic for ICMP by typing it in the filter bar and clicking on the blue arrow button to the right to start the filter.
+
 </p>
 <br />
 
