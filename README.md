@@ -27,6 +27,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 4
 
 <h2>Actions and Observations</h2>
+<h3> Step 1 Create resource groups and virtual machines</h3>
+
+- In Microsoft Azure, create a resource group and two virtual machines. Creating the VM will also allow you to create a new virtual network aka (Vnet).
+- Create a - Windows client virtual machine and an Linux (Ubuntu) server. Use the same Vnet that was created for your Windows VM.
 
 <p>
 <img src="https://i.imgur.com/qjHm1Fd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
