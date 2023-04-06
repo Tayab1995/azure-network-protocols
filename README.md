@@ -59,9 +59,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/8RqVyag.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+ <h3> Step 4 To Deny IMCP Ping Request on NSG </h3>
+
+- To deny the ping request, you need to add this rule to our Network Security Group inside the Virtual Machine and once we've added this rule to “Linux (Ubuntu) Virtual machine 2”, we can see that the traffic times out in PowerShell along with Wireshark displaying a reply to this request Timed out. 
+
+- Wireshark and PowerShell will timed out after denying ICMP (ping) traffic.
 
 <p>
 <img src="https://i.imgur.com/b2XxbEq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
