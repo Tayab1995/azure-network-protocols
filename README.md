@@ -46,9 +46,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Open Wireshark and click on the blue fin icon located right under the file menu.  Once you click on that icon, Wireshark will start analyzing all network traffic on the virtual machine.
  
  - Using Remote Desktop Windows 10 Virtual Machine go to Wireshark to filter traffic for ICMP by typing it in the filter bar and clicking on the blue arrow button to the right to start the filter.
+ 
+- Retrieve the private IP address of the Linux (Ubuntu) virtual machine and ping it in the Windows 10 virtual machine.
 
-</p>
-<br />
+- From the Windows 10 virtual machine open PowerShell and attempt to ping the private IP address of VM 2 server and observe the requests and replies within Wireshark.
+
+- From the Windows 10 virtual machine, open PowerShell and attempt to ping www.google.com and observe the traffic in Wireshark. 
+
+- From the PowerShell, you can see the packets of data sent and the statics at the bottom.  
 
 <p>
 <img src="https://i.imgur.com/8RqVyag.png" width="80%" alt="Disk Sanitization Steps"/>
